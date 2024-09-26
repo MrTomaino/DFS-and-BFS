@@ -20,7 +20,6 @@ from dfsPath import *
 from bfsShortestPath import *
 print()
 print()
-print("Following is a DFS City Search")
+print("Following is a City Search returning a solution.")
 print("Boston to Miami:\n", dfs_path(cities,'Boston','Miami'))
-print()
-print("Boston to Miami (Shortest Path):\n", bfs_shortest_path(cities,'Boston','Miami'))
+
